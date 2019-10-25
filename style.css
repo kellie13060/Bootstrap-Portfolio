@@ -1,0 +1,30 @@
+.container {
+    margin: 20px;
+}
+
+.background {
+    background-color: white;
+}
+
+.navbar {
+    border-bottom: 1px solid #777;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ h2 {
+     color: #4aaaa5;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #aea7b0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
