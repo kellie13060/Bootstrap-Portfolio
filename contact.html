@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap Portfolio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body class="d-flex flex-column" background="Assets/herringbone.png">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="col-sm-2"></div>
+        <a id="name" class="col-sm-2 navbar-brand" href="index.html">Kellie Hunsaker</a>
+        <div class="col-sm-4"></div>
+        <button class="navbar-toggler col-xs-1" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav col-sm-4">
+                <a class="nav-item nav-link active" href="index.html">About<span
+                        class="sr-only">(current)</span></a><span class="line">&#124;</span>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a><span class="line">&#124;</span>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container background">
+
+        <div class="row">
+            <div class="header col-12">
+                <h2>Contact</h2>
+            </div>
+            <div id="horline"></div>
+        </div>
+
+        <div class="row">
+            <form class="col-12">
+                <div class="form-group">
+                    <label for="name1">Name</label>
+                    <input type="name" class="form-control" id="name1" aria-describedby="nameHelp"
+                        placeholder="Enter Name">
+                    <small id="nameHelp" class="form-text text-muted">We'll never share your information with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputMessage1">Message</label>
+                    <textarea class="form-control" rows="10" placeholder="Leave me a message here!"
+                        id="exampleInputMessage1"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer id="sticky-footer" class="py4 bg-dark text-white-50">
+        <div class="footer text-center">
+            <small>Copyright &copy;</small>
+        </div>
+    </footer>
+</body>
+
+
+</html>

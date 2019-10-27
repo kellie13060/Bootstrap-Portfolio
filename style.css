@@ -1,13 +1,92 @@
-.container {
-    margin: 20px;
+html {
+    height: 100%
+}
+body {
+    min-height: 100%;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+   color: #aea7b0;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px;
+}
+
+.row .card .card-title {
+    background-color: #4aaaa5;
+    height: 45px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 12px;
+    
+}
+
+.container {   
+    margin: 20px auto 60px auto;
+}
+
+.card {
+    border: none;
+    padding: 0px;
+    margin: 30px;
+    
+}
+
+.card-img-overlay {
+    margin-top: 95px;
+    padding: 0;
+    width: 205px;
+}
+
+.card-img {
+    width: 205px;
+    overflow: hidden;
+    height: 150px;
 }
 
 .background {
     background-color: white;
 }
-
 .navbar {
     border-bottom: 1px solid #777;
+    padding: 0;
+}
+
+.line {
+    padding: 8px;
+}
+
+.img-thumbnail {
+    max-height: 300px;
+    margin: 20px;
+}
+
+.justify {
+    margin: 0 auto;
+}
+
+.footer {
+    height: 40px;
+}
+
+.header {
+    padding: 30px 10px 20px 50px;
+}
+
+#sticky-footer {
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    color: #ffffff;
+    flex-shrink: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 #name {
@@ -17,14 +96,12 @@
     padding: 15px;
     bottom: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
- h2 {
-     color: #4aaaa5;
-     font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 200px;
 }
 
-p {
-    color: #aea7b0;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+#horline {
+    border-bottom: 1px solid #aea7b0;
+    width: 90%;
+    margin: 0 auto 20px auto;
 }
+
